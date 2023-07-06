@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: poppins;
+    src: url(assets/fonts/Poppins/Poppins-Light.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(assets/fonts/Poppins/Poppins-Bold.ttf) format("opentype");
+}
+body{
+    font-family: poppins;
+}
+:root{
+    --primaryColor: #000;
+    --secondaryColor: #ffff;
+    --colorButtons: rgb(204, 0, 136);
+    --backGround: #000;
+    --wabe : #4861ac;
+}

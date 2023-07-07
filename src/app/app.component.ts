@@ -91,7 +91,7 @@ ngAfterViewInit() {
       if (entry.isIntersecting) {
         this.isVisible = entry.isIntersecting;
         this.isVisible1 = entry.isIntersecting;
-      }
+      } 
       console.log(this.isVisible);
     });
     const observer2 = new IntersectionObserver(([entry]) => {

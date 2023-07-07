@@ -14,7 +14,7 @@ export function playerFactory() { // add this line
 } //
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent 
   ],
   imports: [
     BrowserModule,
